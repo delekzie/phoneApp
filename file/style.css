@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,14 +10,13 @@
     margin-top: 4%;
     border-radius: 40px;
     max-width: 300px;
-    
     padding-bottom: 10px;
 }
-.fixed{
+.fixed {
     height: 3vh;
     width: 120px;
-    background:#222;
-    border-radius : 0px 0px 15px 15px; 
+    background: #222;
+    border-radius: 0px 0px 15px 15px;
     position: fixed;
     margin-left: 82px;
 }
@@ -54,8 +53,6 @@
     top: -5.22in;
     display: none;
     text-align: center;
-    
-
 }
 .thirdDiv{
     border: 0px solid blue;
@@ -70,20 +67,18 @@
     top: -5.22in;
     display: none;
     text-align: center;
-    
-
 }
-.showTime{
+.showTime {
     top: 20%;
     color: #fff;
-     position: absolute;
-     left: 44%; 
+    position: absolute;
+    left: 44%;
 }
-.time{
+.time {
     font-weight: 400;
     font-size: 50px;
 }
-.date{
+.date {
     font-weight: 700;
 }
 .footer{
@@ -94,7 +89,6 @@
     bottom: 14%;
     left: 48%;
     border-bottom: 2px solid #fff;
-    
 }
 @media screen and (max-width: 482px) {
     .btn{
