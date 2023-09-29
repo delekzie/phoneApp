@@ -1,11 +1,123 @@
-.display {
-    max-width: 250px;
-    height: 500px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 10px solid #222;
+    height: 80vh;
+    width: 300px;
+    margin-top: 4%;
+    border-radius: 40px;
+    max-width: 300px;
+
+    padding-bottom: 10px;
+}
+
+.fixed {
+    height: 3vh;
+    width: 120px;
+    background: #222;
+    border-radius: 0px 0px 15px 15px;
+    position: fixed;
+    margin-left: 82px;
+}
+
+.btn {
+    float: right;
+    position: absolute;
+    top: 30%;
+    left: 61%;
+    height: 7vh;
+    width: 5px;
+    background: black;
+    outline: none;
     border-radius: 10px;
-    background-color: #fff;
-    margin: 10px;
+    border: none;
+}
+
+.firstDiv {
+    border: 0px solid blue;
+    height: 77vh;
+    width: 280px;
+    background: black;
+    border-radius: 30px;
+    max-width: 300px;
+}
+
+.secondDiv {
+    border: 0px solid blue;
+    height: 77vh;
+    width: 280px;
+    background: url(images/image\ 1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    max-width: 280px;
+    top: -5.22in;
+    display: none;
     text-align: center;
-    border-color: black;
-    border-style: solid;
-    border-width: 2px;
+
+
+}
+
+.thirdDiv {
+    border: 0px solid blue;
+    height: 77vh;
+    width: 280px;
+    background: url(images/image\ 2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    max-width: 280px;
+    top: -5.22in;
+    display: none;
+    text-align: center;
+
+
+}
+
+.showTime {
+    top: 20%;
+    color: #fff;
+    position: absolute;
+    left: 44%;
+}
+
+.time {
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.date {
+    font-weight: 700;
+}
+
+.footer {
+    width: 65px;
+    border: 0px solid #fff;
+    height: 2vh;
+    position: absolute;
+    bottom: 14%;
+    left: 48%;
+    border-bottom: 2px solid #fff;
+
+}
+
+@media screen and (max-width: 482px) {
+    .btn {
+        float: right;
+        /* position: absolute; */
+        top: 30%;
+        left: -45%;
+        height: 7vh;
+        width: 5px;
+        background: rgb(156, 28, 28);
+        outline: none;
+        border-radius: 10px;
+        border: none;
+    }
 }
