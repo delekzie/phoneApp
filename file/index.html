@@ -1,30 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-
-    <head>
-        <link rel="stylesheet" href="style.css">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-    </head>
-
-    <body>
-        <center>
-            <div class="container">
-                <div class="fixed"></div>
-                <div class="firstDiv" id="blackScreen"></div>
-                <div class="secondDiv" id="lockScreen">
-                    <div class="showTime">
-                        <div class="date" id="displayDate"></div>
-                        <div class="time" id="displayTime"></div>
-                    </div>
-                    <div class="footer" onclick="swipeScreen()"></div>
-                </div>
-                <div ondblclick="blankScreen()" class="thirdDiv" id="unlockScreen"></div>
-            </div>
-        </center>
-        <button onclick="onTree()" class="btn"></button>
-        <script src="script.js"></script>
-    </body>
-
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <center>
+    <div class="container">
+      <div class="fixed"></div>
+      <div class="firstDiv" id="blackScreen"></div>
+      <div class="secondDiv" id="lockScreen">
+        <div class="showTime">
+          <div class="date" id="displayDate"></div>
+        <div class="time" id="displayTime"></div>
+        </div>
+        <div class="footer" onclick="swipeScreen()"></div>
+      </div>
+      <div ondblclick="blankScreen()" class="thirdDiv" id="unlockScreen"></div>
+    </div>
+  </center>
+  <button onclick="onTree()" class="btn"></button>
+  <script src="script.js"></script>
+</body>
 </html>

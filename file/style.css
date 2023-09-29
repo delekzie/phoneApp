@@ -3,18 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-.container {
+.container{
     border: 10px solid #222;
     height: 80vh;
     width: 300px;
     margin-top: 4%;
     border-radius: 40px;
     max-width: 300px;
-
     padding-bottom: 10px;
 }
-
 .fixed {
     height: 3vh;
     width: 120px;
@@ -23,8 +20,7 @@
     position: fixed;
     margin-left: 82px;
 }
-
-.btn {
+.btn{
     float: right;
     position: absolute;
     top: 30%;
@@ -36,8 +32,7 @@
     border-radius: 10px;
     border: none;
 }
-
-.firstDiv {
+.firstDiv{
     border: 0px solid blue;
     height: 77vh;
     width: 280px;
@@ -45,8 +40,7 @@
     border-radius: 30px;
     max-width: 300px;
 }
-
-.secondDiv {
+.secondDiv{
     border: 0px solid blue;
     height: 77vh;
     width: 280px;
@@ -59,11 +53,8 @@
     top: -5.22in;
     display: none;
     text-align: center;
-
-
 }
-
-.thirdDiv {
+.thirdDiv{
     border: 0px solid blue;
     height: 77vh;
     width: 280px;
@@ -76,27 +67,21 @@
     top: -5.22in;
     display: none;
     text-align: center;
-
-
 }
-
 .showTime {
     top: 20%;
     color: #fff;
     position: absolute;
     left: 44%;
 }
-
 .time {
     font-weight: 400;
     font-size: 50px;
 }
-
 .date {
     font-weight: 700;
 }
-
-.footer {
+.footer{
     width: 65px;
     border: 0px solid #fff;
     height: 2vh;
@@ -104,11 +89,9 @@
     bottom: 14%;
     left: 48%;
     border-bottom: 2px solid #fff;
-
 }
-
 @media screen and (max-width: 482px) {
-    .btn {
+    .btn{
         float: right;
         /* position: absolute; */
         top: 30%;
