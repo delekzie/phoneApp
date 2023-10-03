@@ -20,6 +20,13 @@
     position: fixed;
     margin-left: 82px;
 }
+.topIcon {
+    height: 3vh;
+    width: 120px;
+    position: fixed;
+    margin-left: 190px;
+    padding-top:10px ;
+}
 .btn{
     float: right;
     position: absolute;
@@ -82,13 +89,34 @@
     font-weight: 700;
 }
 .footer{
-    width: 65px;
+    width: 70px;
     border: 0px solid #fff;
     height: 2vh;
     position: absolute;
     bottom: 14%;
     left: 48%;
+    color: white;
+   
     border-bottom: 2px solid #fff;
+}
+.lockIcon{
+    display: flex;
+    bottom: 15%;
+    position: absolute;
+    gap: 25%;
+    /* justify-content: space-around; */
+}
+#touch{
+    background: none;
+    width: 8%;
+    border-radius: 50px;
+   margin-left: 10%;
+}
+#camera{
+    width: 8%;
+    background: none;
+    border-radius: 500px;
+    margin-left: 10px;
 }
 @media screen and (max-width: 482px) {
     .btn{

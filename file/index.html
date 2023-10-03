@@ -10,15 +10,31 @@
   <center>
     <div class="container">
       <div class="fixed"></div>
+      
       <div class="firstDiv" id="blackScreen"></div>
       <div class="secondDiv" id="lockScreen">
+        <div class="topIcon">
+            <img src="images/whitesignal1.png" alt="" id="signal">
+            <img src="images/whitebattery.png" alt="" id="battery">
+          </div>
         <div class="showTime">
           <div class="date" id="displayDate"></div>
         <div class="time" id="displayTime"></div>
         </div>
+        <div class="lockIcon">
+            <img src="images/images.png" alt="" id="touch">
+            <img src="images/download (2).png" alt="" id="camera">
+            
+        </div>
+        
         <div class="footer" onclick="swipeScreen()"></div>
       </div>
-      <div ondblclick="blankScreen()" class="thirdDiv" id="unlockScreen"></div>
+      <div ondblclick="blankScreen()" class="thirdDiv" id="unlockScreen">
+        <div class="topIcon">
+            <img src="images/whitesignal1.png" alt="" id="signal">
+            <img src="images/whitebattery.png" alt="" id="battery">
+          </div>
+    </div>
     </div>
   </center>
   <button onclick="onTree()" class="btn"></button>
