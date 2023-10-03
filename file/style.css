@@ -27,6 +27,76 @@
     margin-left: 190px;
     padding-top:10px ;
 }
+.screenIcon1{
+    display: flex;
+    padding-top: 300px;
+    padding-left: 10px;
+}
+.map{
+    width: 40px;
+    
+}
+.pad{
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+}
+.calender{
+    width: 50px;
+    margin-left: 20px;
+}
+.screenIcon2{
+    display: flex;
+    padding-top: 20px;
+    position: absolute;
+}
+.weather{
+    width: 50px;
+    margin-left: 10px;
+    margin-top: 200px;
+}
+.store{
+    width: 50px;
+    margin-left: 20px;
+    margin-top: 200px;
+
+}
+.cal{
+    width: 50px;
+    margin-left: 20px;
+    margin-top: 200px;
+}
+.yutobe{
+    width: 50px;
+    margin-left: 20px;
+    margin-top: 200px;
+}
+.screenIcon3{
+    display: flex;
+    position: absolute;
+}
+.email{
+    margin-top: 150px;
+    width: 40px;
+    margin-left: 10px;
+}
+.watch{
+    margin-top: 150px;
+    width: 50px;
+    margin-left: 30px;
+}
+.gallary{
+    width: 40px;
+    /* height: 20px; */
+    margin-top: 150px;
+    background: none;
+    margin-left: 30px;
+}
+.snap{
+    margin-top: 150px;
+    margin-left: 30px;
+    width: 40px;
+}
 .btn{
     float: right;
     position: absolute;
@@ -99,6 +169,47 @@
    
     border-bottom: 2px solid #fff;
 }
+.footers{
+    width: 275px;
+    border: 1px solid #fff;
+    height: 8vh;
+    backdrop-filter: blur(1px);
+    background-color: #fff;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 14%;
+    left: 40%;
+    color: white;
+   justify-content: center;
+   padding: 5px;
+    border-bottom: 2px solid #fff;
+}
+.footerIcon{
+    display: flex;
+    width: 20px;
+    justify-content: space-between;
+}
+.call{
+    width: 100px;
+    height: 40px;
+    margin-left: 25px;
+}
+.clock{
+    width: 100px;
+    height: 40px;
+    margin-left: 15px;
+}
+.message{
+    width: 150px;
+    height: 45px;
+    margin-left: 20px;
+}
+.music{
+    width: 100px;
+    height: 35px;
+    margin-left: 20px;
+}
+
 .lockIcon{
     display: flex;
     bottom: 15%;
