@@ -33,17 +33,24 @@
     padding-left: 10px;
 }
 .map{
-    width: 40px;
-    
+    width: 50px;
+    border-radius: 20px;
 }
 .pad{
     width: 50px;
     height: 50px;
-    margin-left: 30px;
+    margin-left: 20px;
+    border-radius: 20px;
 }
 .calender{
     width: 50px;
-    margin-left: 20px;
+    margin-left: 15px;
+    border-radius: 20px;
+}
+.todo{
+    width: 50px;
+    margin-left: 22px;
+    border-radius: 15px;
 }
 .screenIcon2{
     display: flex;
@@ -54,22 +61,26 @@
     width: 50px;
     margin-left: 10px;
     margin-top: 200px;
+    border-radius: 20px;
 }
 .store{
     width: 50px;
     margin-left: 20px;
     margin-top: 200px;
-
+    border-radius: 20px;
 }
 .cal{
     width: 50px;
     margin-left: 20px;
     margin-top: 200px;
+    border-radius: 10px;
 }
 .yutobe{
     width: 50px;
+    height: 45px;
     margin-left: 20px;
     margin-top: 200px;
+    border-radius: 10px;
 }
 .screenIcon3{
     display: flex;
@@ -77,25 +88,29 @@
 }
 .email{
     margin-top: 150px;
-    width: 40px;
+    width: 50px;
     margin-left: 10px;
+    border-radius: 10px;
 }
 .watch{
     margin-top: 150px;
     width: 50px;
-    margin-left: 30px;
+    margin-left: 12px;
+    border-radius: 10px;
 }
 .gallary{
-    width: 40px;
+    width: 50px;
     /* height: 20px; */
     margin-top: 150px;
     background: none;
-    margin-left: 30px;
+    margin-left: 20px;
+    border-radius: 10px;
 }
 .snap{
     margin-top: 150px;
     margin-left: 30px;
-    width: 40px;
+    width: 50px;
+    border-radius: 20px;
 }
 .btn{
     float: right;
@@ -148,8 +163,10 @@
 .showTime {
     top: 20%;
     color: #fff;
-    position: absolute;
-    left: 44%;
+    /* position: absolute; */
+    /* left: 44%; */
+    text-align: center;
+    margin-top: 70px;
 }
 .time {
     font-weight: 400;

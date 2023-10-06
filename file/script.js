@@ -25,11 +25,22 @@ var getTimeDate = () =>{
     }
     if(myhrs > 12){
         myhrs = myhrs -12;
-        displayTime.innerHTML = myhrs + ":" + mymin +  " PM"
+      if (mymin < 10) {
+        mymin = "0" + mymin;
+        displayTime.innerHTML = myhrs +":" + mymin +  " PM"
+      } else {
+        displayTime.innerHTML = myhrs +":" + mymin +  " PM"
+      }
 
     }else{
-        displayTime.innerHTML = `${myhrs}: ${mymin}  AM`
+       if (mymin < 10) {
+         mymin = "0" + mymin;
+         displayTime.innerHTML = `${myhrs}:${mymin}  AM`
+       } else {
+        displayTime.innerHTML = `${myhrs}:${mymin}  AM`
+       }
     }
+
 }
 setInterval(function () {
     getTimeDate();
